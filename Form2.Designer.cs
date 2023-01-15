@@ -258,7 +258,7 @@ namespace Auto
             this.cButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.cButton1.ForeColor = System.Drawing.Color.White;
-            this.cButton1.Location = new System.Drawing.Point(99, 297);
+            this.cButton1.Location = new System.Drawing.Point(100, 297);
             this.cButton1.Name = "cButton1";
             this.cButton1.Size = new System.Drawing.Size(197, 50);
             this.cButton1.TabIndex = 28;
