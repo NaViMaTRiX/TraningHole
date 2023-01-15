@@ -49,6 +49,12 @@
     <Compile Include="ArtanPanel.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Cal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cal.Designer.cs">
+      <DependentUpon>Cal.cs</DependentUpon>
+    </Compile>
     <Compile Include="CButton.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -93,6 +99,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Authorization.resx">
       <DependentUpon>Authorization.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cal.resx">
+      <DependentUpon>Cal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Registration.resx">
       <DependentUpon>Registration.cs</DependentUpon>
