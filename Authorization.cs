@@ -7,7 +7,7 @@ using System.Drawing;
 
 namespace Auto
 {
-    public partial class Form1 : Form
+    public partial class Authorization : Form
     {
         [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
         private static extern IntPtr CreateRoundRectRgn
@@ -25,7 +25,7 @@ namespace Auto
         DataTable table = new DataTable();
 
 
-        public Form1()
+        public Authorization()
         {
             InitializeComponent();
         }
@@ -53,7 +53,7 @@ namespace Auto
                 if (table.Rows.Count == 1)
                 {
                     MessageBox.Show("Вы успешно вошли!", "Успешно!", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    Form3 f = new Form3();
+                    Main f = new Main();
                     f.Show();
                     Visible = false;
                 }
@@ -101,7 +101,7 @@ namespace Auto
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Form2 form2 = new Form2();
+            Registration form2 = new Registration();
             form2.Show();
             Visible = false;
         }

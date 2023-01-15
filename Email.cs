@@ -70,8 +70,8 @@ namespace Auto
 
         private void label3_Click(object sender, EventArgs e)
         {
-            Form2 form2 = new Form2();
-            form2.Show();
+            Registration reg = new Registration();
+            reg.Show();
             Visible = false;
         }
     }

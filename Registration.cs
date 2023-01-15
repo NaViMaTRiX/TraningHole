@@ -6,9 +6,9 @@ using System.Windows.Forms;
 
 namespace Auto
 {
-    public partial class Form2 : Form
+    public partial class Registration : Form
     {
-        public Form2()
+        public Registration()
         {
             InitializeComponent();
         }
@@ -80,7 +80,7 @@ namespace Auto
             if (command.ExecuteNonQuery() == 1)
             {
                 MessageBox.Show("Аккаунт успешно создан", "Успех", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                Form3 f = new Form3();
+                Main f = new Main();
                 f.Show();
                 Visible = false;
             }
@@ -99,8 +99,8 @@ namespace Auto
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Form1 f = new Form1();
-            f.Show();
+            Authorization a = new Authorization();
+            a.Show();
             Visible = false;
         }
 

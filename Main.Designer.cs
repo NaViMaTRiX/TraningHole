@@ -1,6 +1,6 @@
 ﻿namespace Auto
 {
-    partial class Form3
+    partial class Main
     {
         /// <summary>
         /// Required designer variable.

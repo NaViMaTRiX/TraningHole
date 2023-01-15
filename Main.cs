@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Auto
 {
-    public partial class Form3 : Form
+    public partial class Main : Form
     {
-        public Form3()
+        public Main()
         {
             InitializeComponent();
         }
