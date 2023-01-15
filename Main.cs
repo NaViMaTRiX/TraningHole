@@ -54,5 +54,12 @@ namespace Auto
         {
             System.Diagnostics.Process.Start("https://yandex.ru/maps/?from=api-maps&ll=36.016742%2C54.563996&mode=usermaps&origin=jsapi_2_1_78&um=constructor%3A900af870c7f584d8ca3a5368116f92c33e07f30711b4b6869bcbbb7a249e8ba5&z=11");
         }
+
+        private void клиентыToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Clients clients = new Clients();
+            clients.Show();
+            Visible = false;
+        }
     }
 }
