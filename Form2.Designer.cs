@@ -125,7 +125,7 @@ namespace Auto
             this.linkLabel1.LinkColor = System.Drawing.SystemColors.ControlText;
             this.linkLabel1.Location = new System.Drawing.Point(131, 350);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(141, 16);
+            this.linkLabel1.Size = new System.Drawing.Size(142, 16);
             this.linkLabel1.TabIndex = 33;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Уже есть аккаунт!";

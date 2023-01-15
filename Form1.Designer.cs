@@ -156,7 +156,7 @@ namespace Auto
             this.linkLabel2.LinkColor = System.Drawing.SystemColors.ControlText;
             this.linkLabel2.Location = new System.Drawing.Point(134, 289);
             this.linkLabel2.Name = "linkLabel2";
-            this.linkLabel2.Size = new System.Drawing.Size(128, 16);
+            this.linkLabel2.Size = new System.Drawing.Size(129, 16);
             this.linkLabel2.TabIndex = 29;
             this.linkLabel2.TabStop = true;
             this.linkLabel2.Text = "Забыли пароль?";
@@ -194,7 +194,7 @@ namespace Auto
             this.cButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.cButton1.ForeColor = System.Drawing.Color.White;
-            this.cButton1.Location = new System.Drawing.Point(99, 324);
+            this.cButton1.Location = new System.Drawing.Point(98, 324);
             this.cButton1.Name = "cButton1";
             this.cButton1.Size = new System.Drawing.Size(197, 50);
             this.cButton1.TabIndex = 28;
@@ -233,9 +233,9 @@ namespace Auto
             this.linkLabel1.BackColor = System.Drawing.Color.White;
             this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.linkLabel1.LinkColor = System.Drawing.SystemColors.ControlText;
-            this.linkLabel1.Location = new System.Drawing.Point(125, 377);
+            this.linkLabel1.Location = new System.Drawing.Point(124, 377);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(149, 16);
+            this.linkLabel1.Size = new System.Drawing.Size(150, 16);
             this.linkLabel1.TabIndex = 20;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Ещё нет аккаунта?";
