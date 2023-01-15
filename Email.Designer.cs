@@ -34,6 +34,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.cButton1 = new Auto.CButton();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // contextMenuStrip1
@@ -90,11 +91,23 @@
             this.cButton1.UseVisualStyleBackColor = false;
             this.cButton1.Click += new System.EventHandler(this.cButton1_Click);
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(11, 9);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(71, 16);
+            this.label3.TabIndex = 30;
+            this.label3.Text = "<- Назад";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
+            // 
             // Email
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(468, 202);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.cButton1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -114,5 +127,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private CButton cButton1;
+        private System.Windows.Forms.Label label3;
     }
 }

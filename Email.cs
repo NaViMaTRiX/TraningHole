@@ -67,5 +67,12 @@ namespace Auto
         }
         public static int kodr = random();
         public int kod = kodr;
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            Form2 form2 = new Form2();
+            form2.Show();
+            Visible = false;
+        }
     }
 }

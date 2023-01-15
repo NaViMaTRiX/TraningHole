@@ -34,6 +34,8 @@ namespace Auto
             this.txtcaptch = new System.Windows.Forms.TextBox();
             this.Ibcaptcha = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.artanPanel1 = new Auto.ArtanPanel();
             this.textBox_password = new System.Windows.Forms.TextBox();
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
@@ -44,13 +46,11 @@ namespace Auto
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.artanPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // label2
@@ -112,6 +112,28 @@ namespace Auto
             this.label4.TabIndex = 24;
             this.label4.Text = "Авторизация";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Auto.Properties.Resources.logoza_ru;
+            this.pictureBox1.InitialImage = global::Auto.Properties.Resources.F9RogVWvcWGqHPdOLPWnCw__1_;
+            this.pictureBox1.Location = new System.Drawing.Point(309, 51);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(346, 115);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox1.TabIndex = 26;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Auto.Properties.Resources.RIO_remont_fitnes_tsentrov_bassejnov_spa_v_Ekaterinburge4;
+            this.pictureBox2.InitialImage = global::Auto.Properties.Resources.F9RogVWvcWGqHPdOLPWnCw__1_;
+            this.pictureBox2.Location = new System.Drawing.Point(0, -3);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(955, 548);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 15;
+            this.pictureBox2.TabStop = false;
+            // 
             // artanPanel1
             // 
             this.artanPanel1.BackColor = System.Drawing.Color.White;
@@ -156,7 +178,7 @@ namespace Auto
             this.linkLabel2.LinkColor = System.Drawing.SystemColors.ControlText;
             this.linkLabel2.Location = new System.Drawing.Point(134, 289);
             this.linkLabel2.Name = "linkLabel2";
-            this.linkLabel2.Size = new System.Drawing.Size(129, 16);
+            this.linkLabel2.Size = new System.Drawing.Size(128, 16);
             this.linkLabel2.TabIndex = 29;
             this.linkLabel2.TabStop = true;
             this.linkLabel2.Text = "Забыли пароль?";
@@ -194,7 +216,7 @@ namespace Auto
             this.cButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.cButton1.ForeColor = System.Drawing.Color.White;
-            this.cButton1.Location = new System.Drawing.Point(98, 324);
+            this.cButton1.Location = new System.Drawing.Point(98, 323);
             this.cButton1.Name = "cButton1";
             this.cButton1.Size = new System.Drawing.Size(197, 50);
             this.cButton1.TabIndex = 28;
@@ -235,7 +257,7 @@ namespace Auto
             this.linkLabel1.LinkColor = System.Drawing.SystemColors.ControlText;
             this.linkLabel1.Location = new System.Drawing.Point(124, 377);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(150, 16);
+            this.linkLabel1.Size = new System.Drawing.Size(149, 16);
             this.linkLabel1.TabIndex = 20;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Ещё нет аккаунта?";
@@ -265,28 +287,6 @@ namespace Auto
             this.label3.TabIndex = 10;
             this.label3.Text = "Капча";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Auto.Properties.Resources.logoza_ru;
-            this.pictureBox1.InitialImage = global::Auto.Properties.Resources.F9RogVWvcWGqHPdOLPWnCw__1_;
-            this.pictureBox1.Location = new System.Drawing.Point(309, 51);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(346, 115);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox1.TabIndex = 26;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::Auto.Properties.Resources.RIO_remont_fitnes_tsentrov_bassejnov_spa_v_Ekaterinburge4;
-            this.pictureBox2.InitialImage = global::Auto.Properties.Resources.F9RogVWvcWGqHPdOLPWnCw__1_;
-            this.pictureBox2.Location = new System.Drawing.Point(0, -3);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(955, 548);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 15;
-            this.pictureBox2.TabStop = false;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
@@ -306,12 +306,12 @@ namespace Auto
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Авторизация";
             this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.artanPanel1.ResumeLayout(false);
             this.artanPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

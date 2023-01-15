@@ -22,7 +22,8 @@ namespace Auto
 
         DataBase database = new DataBase();
         SqlDataAdapter adapter = new SqlDataAdapter();
-        
+        DataTable table = new DataTable();
+
 
         public Form1()
         {
@@ -42,8 +43,6 @@ namespace Auto
 
         private void cButton1_Click(object sender, EventArgs e)
         {
-            SqlDataAdapter adapter = new SqlDataAdapter();
-            DataTable table = new DataTable();
             string query = $"select login_user, password_user from register where login_user = '{textBox_login.Text}' and password_user = '{textBox_password.Text}'";
             SqlCommand command = new SqlCommand(query, database.getConnection());
             adapter.SelectCommand= command;

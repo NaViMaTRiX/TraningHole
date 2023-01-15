@@ -23,8 +23,8 @@ namespace Auto
         private void Form2_Load(object sender, EventArgs e)
         {
             this.ActiveControl = label1;
-            textBox_password.UseSystemPasswordChar = true;
-            pictureBox3.Visible = false;
+            textBox_password.UseSystemPasswordChar = false;
+            pictureBox4.Visible = false;
             captcha();
             textBox_password.MaxLength = 50;
             textBox_login.MaxLength = 50;

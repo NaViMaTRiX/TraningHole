@@ -43,6 +43,13 @@ namespace Auto
             else MessageBox.Show("Ошибка!", "Ошибка", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
             dataBase.closeConnection();
         }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            Kod kod = new Kod();
+            kod.Show();
+            Visible = false;
+        }
     }
 }
 

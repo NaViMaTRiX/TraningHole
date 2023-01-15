@@ -23,5 +23,12 @@ namespace Auto
             else MessageBox.Show("Неправильно введён код! Попробуйте снова ",
                 "Неправельный код", MessageBoxButtons.OK, MessageBoxIcon.Warning);
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            Email email = new Email();
+            email.Show();
+            Visible= false;
+        }
     }
 }

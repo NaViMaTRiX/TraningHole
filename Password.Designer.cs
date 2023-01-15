@@ -34,6 +34,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.cButton1 = new Auto.CButton();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // textBox1
@@ -100,11 +101,23 @@
             this.cButton1.UseVisualStyleBackColor = false;
             this.cButton1.Click += new System.EventHandler(this.cButton1_Click1);
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(12, 9);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(71, 16);
+            this.label4.TabIndex = 31;
+            this.label4.Text = "<- Назад";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
+            // 
             // Password
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(505, 294);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.cButton1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -127,5 +140,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
         private CButton cButton1;
+        private System.Windows.Forms.Label label4;
     }
 }
